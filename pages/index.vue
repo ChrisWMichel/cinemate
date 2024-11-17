@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section>
+    <section class="ml-8">
       <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Featured Movies</h2>
       <div class="grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 lg:grid-cols-3">
         <MovieCard v-for="movie in movies" 
