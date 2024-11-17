@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="ml-8">
+    <section>
       <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Featured Movies</h2>
       <div class="grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 lg:grid-cols-3">
         <MovieCard v-for="movie in movies" 
@@ -11,7 +11,7 @@
         :release_date="movie.release_date" 
         :poster_path="movie.poster_path" 
         :popularity="movie.popularity" 
-        :item="movie" />
+        :item="movie"/>
       </div>
     </section>
     <section>
@@ -25,7 +25,7 @@
         :first_air_date="serie.first_air_date" 
         :poster_path="serie.poster_path" 
         :popularity="serie.popularity" 
-        :item="serie" />
+        :item="serie"/>
       </div>
     </section>
   </div>

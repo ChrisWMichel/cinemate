@@ -28,18 +28,18 @@
             <li>
               <NuxtLink to="/now-playing" class="menu-banner">Now Playing</NuxtLink>
             </li>
-            <li>
+            <!-- <li>
               <NuxtLink to="/top-rated" class="menu-banner">Top Rated</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/up-coming" class="menu-banner">Up Coming</NuxtLink>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
     </nav>
 
-    <main>
+    <main class="ml-8">
       <slot />
     </main>
     </div>
